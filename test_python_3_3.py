@@ -1,11 +1,14 @@
-def test_example():
+def test_example_refactoring():
     assert 5 > 3
 
 def test_conflict_master():
-    assert 8 > 1
+    assert 8123 > 11
 
 def test_conflict_2_master():
-    assert 8 > 5
+    assert 8232 > 532
 
 def test_conflict_3_master():
-    assert 8 > 7
+    assert 823 > 27
+
+def test_example_main_refactoring():
+    assert 435 > 345
