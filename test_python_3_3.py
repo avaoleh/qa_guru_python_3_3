@@ -3,3 +3,6 @@ def test_example():
 
 def test_conflict():
     assert 8 > 1
+
+def test_conflict_2():
+    assert 8 > 5
